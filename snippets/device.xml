@@ -6,6 +6,10 @@
     <remote  name="PixelOS-Devices"
            fetch="https://github.com/PixelOS-Devices"
            revision="refs/heads/fourteen" />
+   
+    <remote  name="PixelOS-Devices-Gitlab"
+           fetch="https://gitlab.com/PixelOS-Devices"
+           revision="refs/heads/17" />
 
   <!-- Device -->
   <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" groups="pdk" remote="PixelOS-Devices" />
@@ -16,4 +20,6 @@
   <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" groups="pdk" remote="PixelOS-Devices" />
 
   <project path="hardware/xiaomi/" name="hardware_xiaomi" groups="pdk" remote="PixelOS-Github" />
+
+  <project path="prebuilts/clang/host/linux-x86/clang-playground" name="playgroundtc" groups="pdk" remote="PixelOS-Devices-Gitlab" />
 </manifest>
