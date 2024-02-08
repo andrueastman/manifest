@@ -7,10 +7,6 @@
            fetch="https://github.com/PixelOS-Devices"
            revision="refs/heads/fourteen" />
    
-    <remote  name="PixelOS-Devices-Gitlab"
-           fetch="https://gitlab.com/PixelOS-Devices"
-           revision="refs/heads/17" />
-
   <!-- Device -->
   <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" groups="pdk" remote="PixelOS-Devices" />
   <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" groups="pdk" remote="PixelOS-Devices" />
