@@ -17,5 +17,5 @@
 
   <project path="hardware/xiaomi/" name="hardware_xiaomi" groups="pdk" remote="PixelOS-Github" />
 
-  <project path="prebuilts/clang/host/linux-x86/clang-playground" name="playgroundtc" groups="pdk" remote="PixelOS-Devices-Gitlab" />
+  <project path="prebuilts/clang/host/linux-x86/clang-playground" name="playgroundtc" groups="pdk" remote="PixelOS-Devices-Gitlab" revision="refs/heads/17"/>
 </manifest>
