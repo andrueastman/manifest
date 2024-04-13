@@ -10,6 +10,9 @@
     <remote name="andrueastman"
            fetch="https://github.com/andrueastman"
            revision="refs/heads/fourteen" />
+
+  <!-- Vendor -->
+  <project path="vendor/aosp" name="vendor_aosp" remote="andrueastman" />
    
   <!-- Device -->
   <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" groups="pdk" remote="andrueastman" />
