@@ -6,9 +6,13 @@
     <remote  name="PixelOS-Devices"
            fetch="https://github.com/PixelOS-Devices"
            revision="refs/heads/fourteen" />
+
+    <remote name="andrueastman"
+           fetch="https://github.com/andrueastman"
+           revision="refs/heads/fourteen" />
    
   <!-- Device -->
-  <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" groups="pdk" remote="PixelOS-Devices" />
+  <project path="device/xiaomi/sm6150-common" name="device_xiaomi_sm6150-common" groups="pdk" remote="andrueastman" />
   <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" groups="pdk" remote="PixelOS-Devices" />
   <project path="kernel/xiaomi/sm6150" name="kernel_xiaomi_sm6150" groups="pdk" remote="PixelOS-Devices" />
   <project path="vendor/xiaomi/sm6150-common" name="vendor_xiaomi_sm6150-common" groups="pdk" remote="PixelOS-Devices" />
